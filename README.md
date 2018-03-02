@@ -21,7 +21,7 @@ Our app has two components:
 
 ## App Usage
 
-# Survey:
+### Survey:
 
 The survey component of the application allows the user to input their observation data using the Survey 123 Connect interface. The survey can be accessed by searching ohDeer on the Downloadable Surveys list in the Survey123 application (accessible on Android, IOS and online). 
 
@@ -46,7 +46,7 @@ User options include:
 
 After the observation is submitted, the data is inputted into a geodatabase as a layer file and visualized as a point in the web application.
 
-# Web Application
+### Web Application
 
 
 ## Limitations
