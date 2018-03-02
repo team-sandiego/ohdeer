@@ -27,22 +27,22 @@ The survey component of the application allows the user to input their observati
 
 User options include:
 
-  Animal Type
-    -Choose an animal from the drop down list or select other and the user may input the animal type 
+  Animal Type   
+   -Choose an animal from the drop down list or select other and the user may input the animal type 
   Condition of Animal
-    -Deceased
-    -Wounded
-    -Unsure
+   -Deceased
+   -Wounded
+   -Unsure
   Image 
   Date & Time
   Location
-    -A map opens to allow user to geographically pin where the observation was made
+   -A map opens to allow user to geographically pin where the observation was made
   Notes on Location
-    -Gives the user the option to expand on the georeference, or, if user has location services turned off, to input directions via text
+   -Gives the user the option to expand on the georeference, or, if user has location services turned off, to input directions via text
   Contact Info
-    -Full name 
-    -Phone number
-    -Email
+   -Full name 
+   -Phone number
+   -Email
 
 After the observation is submitted, the data is inputted into a geodatabase as a layer file and visualized as a point in the web application.
 
