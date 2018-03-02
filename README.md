@@ -28,21 +28,21 @@ The survey component of the application allows the user to input their observati
 User options include:
 
   Animal Type   
-   -Choose an animal from the drop down list or select other and the user may input the animal type 
+   - Choose an animal from the drop down list or select other and the user may input the animal type 
   Condition of Animal
-   -Deceased
-   -Wounded
-   -Unsure
+   - Deceased
+   - Wounded
+   - Unsure
   Image 
   Date & Time
   Location
-   -A map opens to allow user to geographically pin where the observation was made
+   - A map opens to allow user to geographically pin where the observation was made
   Notes on Location
-   -Gives the user the option to expand on the georeference, or, if user has location services turned off, to input directions via text
+   - Gives the user the option to expand on the georeference, or, if user has location services turned off, to input directions via text
   Contact Info
-   -Full name 
-   -Phone number
-   -Email
+   - Full name 
+   - Phone number
+   - Email
 
 After the observation is submitted, the data is inputted into a geodatabase as a layer file and visualized as a point in the web application.
 
@@ -56,15 +56,15 @@ The web application includes multiple layers the user can interact with, includi
     Visualization of streetlights in Nova Scotia at night time, lamp pole data unavailable
 
   - Significant Species and Habitat: Nova Scotia Department of Natural Resources
-Notable species are deer, as they have been a larger portion of reported vehicle collision incidents on NS highways, based on safety reports available from the Department of Transportation and Infrastructure Renewal
+    Notable species are deer, as they have been a larger portion of reported vehicle collision incidents on NS highways, based on safety reports available from the Department of Transportation and Infrastructure Renewal
 Some other the species are hard to interpret (ie. “Other Habitat”, “Species at Risk”, “Species of Concern”
 Aquaculture are also included in the dataset based polygons drawn over water features such as lakes and rivers.
 
--Municipalities/Provincial border: NS Open Data Catalogue 
-Used to clip significant species and habitats to remain inland, as opposed to bird migration areas offshore that are not extremely relevant to our project 
+  - Municipalities/Provincial border: NS Open Data Catalogue 
+    Used to clip significant species and habitats to remain inland, as opposed to bird migration areas offshore that are not extremely relevant to our project 
 
--Nova Scotia Road Network: NS Open Data Catalogue
-Using road classes: Trans Canada highway, provincial highways, collector roads, and arterial roads
+  - Nova Scotia Road Network: NS Open Data Catalogue
+    Using road classes: Trans Canada highway, provincial highways, collector roads, and arterial roads
 Buffer of 1000m created, intersected buffer with species at risk
 
 
