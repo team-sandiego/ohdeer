@@ -29,19 +29,19 @@ The survey component of the application allows the user to input their observati
 
 User options include:
 
-  1. Animal Type   
+ 1. Animal Type   
    - Choose an animal from the drop down list or select other and the user may input the animal type 
-  2. Condition of Animal
+ 2. Condition of Animal
    - Deceased
    - Wounded
    - Unsure
-  #### 3. Image 
-  #### 4. Date & Time
-  #### 5. Location
+ 3. Image 
+ 4. Date & Time
+ 5. Location
    - A map opens to allow user to geographically pin where the observation was made
-  #### 6. Notes on Location
+ 6. Notes on Location
    - Gives the user the option to expand on the georeference, or, if user has location services turned off, to input directions via text
-  #### 7. Contact Info
+ 7. Contact Info
    - Full name 
    - Phone number
    - Email
