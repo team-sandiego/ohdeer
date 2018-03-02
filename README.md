@@ -29,9 +29,9 @@ The survey component of the application allows the user to input their observati
 
 User options include:
 
-  #### 1. Animal Type   
+  1. Animal Type   
    - Choose an animal from the drop down list or select other and the user may input the animal type 
-  #### 2. Condition of Animal
+  2. Condition of Animal
    - Deceased
    - Wounded
    - Unsure
@@ -74,13 +74,13 @@ Buffer of 1000m created, intersected buffer with species at risk
 
 Possible limitations of this app include:
 
-  -Limited reports coming from rural areas where the population is scarce
+  - Limited reports coming from rural areas where the population is scarce
   
-  -Users having little interest on taking time to fill out a report 
+  - Users having little interest on taking time to fill out a report 
   
-  -Users not being able to recognize certain species they see in order to describe them
+  - Users not being able to recognize certain species they see in order to describe them
   
-  -In the future, including traffic volume data and numbers of species data should be included as a temporal study to see the difference the app is making in regards to animal conservation 
+  - In the future, including traffic volume data and numbers of species data should be included as a temporal study to see the difference the app is making in regards to animal conservation 
 
 
 ## Data Sources 
