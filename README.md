@@ -42,7 +42,7 @@ User options include:
  #### 5. Location
    - A map opens to allow user to geographically pin where the observation was made
  #### 6. Notes on Location
-   - Gives the user the option to expand on the georeference, or, if user has location services turned off, to input directions via text
+   - Gives the user the option to expand on the georeference, or, if the user has location services turned off, to input directions via text
  #### 7. Contact Info
    - Full name 
    - Phone number
@@ -86,6 +86,8 @@ Possible limitations of this app include:
   - Users having little interest on taking time to fill out a report 
   
   - Users not being able to recognize certain species they see in order to describe them
+  
+  - Users not having an account to connect with Survey123 will have to be willing to create one
   
   - In the future, including traffic volume data and numbers of species data should be included as a temporal study to see the difference the app is making in regards to animal conservation 
 
