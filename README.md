@@ -29,19 +29,19 @@ The survey component of the application allows the user to input their observati
 
 User options include:
 
-  #### - Animal Type   
+  #### 1. Animal Type   
    - Choose an animal from the drop down list or select other and the user may input the animal type 
   Condition of Animal
    - Deceased
    - Wounded
    - Unsure
-  #### - Image 
-  #### - Date & Time
-  #### - Location
+  #### 2. Image 
+  #### 3. Date & Time
+  #### 4. Location
    - A map opens to allow user to geographically pin where the observation was made
-  #### - Notes on Location
+  #### 5. Notes on Location
    - Gives the user the option to expand on the georeference, or, if user has location services turned off, to input directions via text
-  #### - Contact Info
+  #### 6. Contact Info
    - Full name 
    - Phone number
    - Email
@@ -54,18 +54,18 @@ The web application presents the georeferenced points on a layer in Web App Buil
 
 The web application includes multiple layers the user can interact with, including: 
 
-  #### Earth at Night
+  #### 1. Earth at Night
    Visualization of streetlights in Nova Scotia at night time, lamp pole data unavailable
 
-  #### Significant Species and Habitat
+  #### 2. Significant Species and Habitat
    Notable species are deer, as they have been a larger portion of reported vehicle collision incidents on NS highways, based on safety reports available from the Department of Transportation and Infrastructure Renewal
 Some other the species are hard to interpret (ie. “Other Habitat”, “Species at Risk”, “Species of Concern”
 Aquaculture are also included in the dataset based polygons drawn over water features such as lakes and rivers.
 
-  #### Municipalities/Provincial border
+  #### 3. Municipalities/Provincial border
    Used to clip significant species and habitats to remain inland, as opposed to bird migration areas offshore that are not extremely relevant to our project 
 
-  #### Nova Scotia Road Network
+  #### 4. Nova Scotia Road Network
    Using road classes: Trans Canada highway, provincial highways, collector roads, and arterial roads
 Buffer of 1000m created, intersected buffer with species at risk
 
