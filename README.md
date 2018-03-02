@@ -17,7 +17,7 @@ The goal is for this information to be used to promote road safety by providing 
 
 Our app has two components: 
 
-1. a user-friendly survey component that gathers crowd-sourced observation data input by the public and 
+1. a user-friendly survey component that gathers crowd-sourced observation data input by the public 
 2. the visualization of the road impact observation data via the web application component
 
 
@@ -31,17 +31,17 @@ User options include:
 
   #### 1. Animal Type   
    - Choose an animal from the drop down list or select other and the user may input the animal type 
-  Condition of Animal
+  #### 2. Condition of Animal
    - Deceased
    - Wounded
    - Unsure
-  #### 2. Image 
-  #### 3. Date & Time
-  #### 4. Location
+  #### 3. Image 
+  #### 4. Date & Time
+  #### 5. Location
    - A map opens to allow user to geographically pin where the observation was made
-  #### 5. Notes on Location
+  #### 6. Notes on Location
    - Gives the user the option to expand on the georeference, or, if user has location services turned off, to input directions via text
-  #### 6. Contact Info
+  #### 7. Contact Info
    - Full name 
    - Phone number
    - Email
