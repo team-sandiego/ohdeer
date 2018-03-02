@@ -48,7 +48,26 @@ After the observation is submitted, the data is inputted into a geodatabase as a
 
 ### Web Application
 
-The web application presents the georeferenced points on a layer in Web App Builder. A layer with thirty random points were populated t
+The web application presents the georeferenced points on a layer in Web App Builder. The point layer contains 30 random points that were populated with observation data in the same fields as the survey 
+
+The web application includes multiple layers the user can interact with, including: 
+
+  - Earth at Night
+    Visualization of streetlights in Nova Scotia at night time, lamp pole data unavailable
+
+  - Significant Species and Habitat: Nova Scotia Department of Natural Resources
+Notable species are deer, as they have been a larger portion of reported vehicle collision incidents on NS highways, based on safety reports available from the Department of Transportation and Infrastructure Renewal
+Some other the species are hard to interpret (ie. “Other Habitat”, “Species at Risk”, “Species of Concern”
+Aquaculture are also included in the dataset based polygons drawn over water features such as lakes and rivers.
+
+-Municipalities/Provincial border: NS Open Data Catalogue 
+Used to clip significant species and habitats to remain inland, as opposed to bird migration areas offshore that are not extremely relevant to our project 
+
+-Nova Scotia Road Network: NS Open Data Catalogue
+Using road classes: Trans Canada highway, provincial highways, collector roads, and arterial roads
+Buffer of 1000m created, intersected buffer with species at risk
+
+
 
 ## Limitations
 
