@@ -18,30 +18,32 @@ The goal is for this information to be used to promote road safety by providing 
 Our app has two components: 
 
 1. a user-friendly survey component that gathers crowd-sourced observation data input by the public 
+link:
 2. the visualization of the road impact observation data via the web application component
+link:
 
 
 ## App Usage
 
 ### Survey:
 
-The survey component of the application allows the user to input their observation data using the Survey 123 Connect interface. The survey can be accessed by searching ohDeer on the Downloadable Surveys list in the Survey123 application (accessible on Android, IOS and online). 
+The survey component of the application allows the user to input their observation data using the Survey 123 Connect interface. The survey can be accessed by searching ohDeer on the Downloadable Surveys list in the Survey123 application (accessible using the Survey123 application on Android, IOS and online). 
 
 User options include:
 
- 1. Animal Type   
+ #### 1. Animal Type   
    - Choose an animal from the drop down list or select other and the user may input the animal type 
- 2. Condition of Animal
+ #### 2. Condition of Animal
    - Deceased
    - Wounded
    - Unsure
- 3. Image 
- 4. Date & Time
- 5. Location
+ #### 3. Image 
+ #### 4. Date & Time
+ #### 5. Location
    - A map opens to allow user to geographically pin where the observation was made
- 6. Notes on Location
+ #### 6. Notes on Location
    - Gives the user the option to expand on the georeference, or, if user has location services turned off, to input directions via text
- 7. Contact Info
+ #### 7. Contact Info
    - Full name 
    - Phone number
    - Email
@@ -50,24 +52,27 @@ After the observation is submitted, the data is inputted into a geodatabase as a
 
 ### Web Application:
 
-The web application presents the georeferenced points on a layer in Web App Builder. The point layer contains 30 random points that were populated with observation data in the same fields as the survey 
+The web application presents the georeferenced points on a layer in Web App Builder. For the purposes of the app challenge, the point layer contains 30 random points that were created with a python script and populated with observation data to reflect the same fields as input coming from the Survey123 application. 
 
 The web application includes multiple layers the user can interact with, including: 
 
   #### 1. Earth at Night
-   Visualization of streetlights in Nova Scotia at night time, lamp pole data unavailable
+   Visualization of streetlights in Nova Scotia at night time in order to portray the lack of sufficient light on certain roads that could inhibit the drivers ability to recognize an animal in the road. This layer can be overlaid with the incidents map and 
 
   #### 2. Significant Species and Habitat
-   Notable species are deer, as they have been a larger portion of reported vehicle collision incidents on NS highways, based on safety reports available from the Department of Transportation and Infrastructure Renewal
-Some other the species are hard to interpret (ie. “Other Habitat”, “Species at Risk”, “Species of Concern”
-Aquaculture are also included in the dataset based polygons drawn over water features such as lakes and rivers.
+   Notable species are deer migratory routes, as they have been a larger portion of reported vehicle collision incidents on NS highways, based on safety reports available from the Department of Transportation and Infrastructure Renewal. Some of the other species are harder to interpret (ie. “Other Habitat”, “Species at Risk”, “Species of Concern”) are also included in the dataset based polygons drawn over water features such as lakes and rivers.
 
-  #### 3. Municipalities/Provincial border
-   Used to clip significant species and habitats to remain inland, as opposed to bird migration areas offshore that are not extremely relevant to our project 
+  #### 3. Significant Species Buffer
+   A buffer of one kilometre was created around the road network layer where the road intersected with species at risk
+  
+  #### 4. ohDeer Points (Survey123)
+   This layer geographically presents the points inputted by the user of the ohDeer Survey123 application. 
+  
+  #### 5. Simulation Points
+   A python script was used to create 30 random points to test the Web App Builder tools. 
 
-  #### 4. Nova Scotia Road Network
-   Using road classes: Trans Canada highway, provincial highways, collector roads, and arterial roads
-Buffer of 1000m created, intersected buffer with species at risk
+  #### 6. Nova Scotia Major Road Network
+   Represents the different road classes: Trans Canada Highway, provincial highways, collector roads, and arterial roads
 
 
 ## Limitations
@@ -75,6 +80,8 @@ Buffer of 1000m created, intersected buffer with species at risk
 Possible limitations of this app include:
 
   - Limited reports coming from rural areas where the population is scarce
+  
+  - Lamp pole data unavailable
   
   - Users having little interest on taking time to fill out a report 
   
