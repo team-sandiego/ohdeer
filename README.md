@@ -54,8 +54,11 @@ After the observation is submitted, the data is inputted into a geodatabase as a
 Possible limitations of this app include:
 
   -Limited reports coming from rural areas where the population is scarce
+  
   -Users having little interest on taking time to fill out a report 
+  
   -Users not being able to recognize certain species they see in order to describe them
+  
   -In the future, including traffic volume data and numbers of species data should be included as a temporal study to see the difference the app is making in regards to animal conservation 
 
 
