@@ -48,6 +48,7 @@ After the observation is submitted, the data is inputted into a geodatabase as a
 
 ### Web Application
 
+The web application presents the georeferenced points on a layer in Web App Builder. A layer with thirty random points were populated t
 
 ## Limitations
 
