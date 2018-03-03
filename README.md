@@ -18,9 +18,9 @@ The goal is for this information to be used to promote road safety by providing 
 Our app has two components: 
 
 1. A user-friendly survey component that gathers crowd-sourced observation data input by the public. 
-link:
+link: [Survey123](https://survey123.arcgis.com/share/9ffa6b272cfb4158a502e323dbb78929)
 2. The visualization of the road impact observation data via the web application component.
-link:
+link:[Web App](https://cogsnscc.maps.arcgis.com/apps/webappviewer/index.html?id=775ea1c329c943daa3839daff75e6160)
 
 
 ## App Usage
